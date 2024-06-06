@@ -1,7 +1,6 @@
 {
-  "name": "websocket",
+  "name": "chat-live",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/server.js"
@@ -9,8 +8,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^4.19.2",
-    "socket.io": "^4.7.5"
+    "ws": "^8.17.0"
   }
 }
